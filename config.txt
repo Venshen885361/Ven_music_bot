@@ -1,0 +1,89 @@
+
+token = MTE2MDk2MzUwMjQ4NDI0NjYxMA.Gik-Q1.pIO6WoQVEj9X_86w3agw_8XQlO73GCJhLuku8E
+
+
+owner = 816599321088491521
+
+
+prefix = "!"
+
+game = "Listening to SinCosI"
+
+status = IDLE
+
+songinstatus=false
+
+
+altprefix = "NONE"
+
+
+success = "🎶"
+warning = "💡"
+error = "🚫"
+loading = "⌚"
+searching = "🔎"
+
+help = cmd
+
+
+npimages = true
+
+
+stayinchannel = false
+
+maxtime = 0
+
+
+alonetimeuntilstop = 0
+
+playlistsfolder = "Playlists"
+
+updatealerts=true
+
+lyrics.default = "MusicMatch"
+
+
+
+
+aliases {
+  // General commands
+  settings = [ status ]
+
+  // Music commands
+  lyrics = [ly]
+  nowplaying = [np]
+  play = [p]
+  playlists = [ pls ]
+  queue = [ list ]
+  remove = [ del ]
+  scsearch = []
+  search = [ yt ]
+  shuffle = []
+  skip = [ voteskip ]
+
+  // Admin commands
+  prefix = [ setprefix ]
+  setdj = []
+  setskip = [ setskippercent, skippercent, setskipratio ]
+  settc = []
+  setvc = []
+
+  // DJ Commands
+  forceremove = [ forcedelete, modremove, moddelete, modelete ]
+  forceskip = [ modskip ]
+  movetrack = [ move ]
+  pause = []
+  playnext = [next]
+  repeat = []
+  skipto = [ jumpto ]
+  stop = [ leave ]
+  volume = [ vol ]
+}
+
+
+
+
+transforms = {}
+
+//嚴禁打開
+eval=false
